@@ -1,0 +1,141 @@
+* {
+
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    /*background-color: azure;*/
+   
+}
+
+
+.grid {
+height: 100vh;
+display: grid;
+grid-template-rows:1fr 1fr 8fr 1fr 1fr;
+gap: 20px;
+}
+
+
+.header {
+background-color: rgb(230, 147, 14);
+}
+.header h1{
+text-align: center;
+font-family: fantasy;
+
+}
+nav {
+text-align: center;
+font-family: cursive;
+}
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: azure;
+}
+.sidebar {
+background-color: blanchedalmond;
+
+}
+.content {
+background-color: rgb(233, 231, 155);
+box-sizing: border-box;
+
+}
+
+
+.sidebar {
+background-color: rgb(72, 215, 215);
+margin: 10px;
+text-align: center;
+}
+.sidebar > h3 {
+text-align: center;
+font-family: cursive;
+margin: 10px;
+}
+.social {
+background-color: antiquewhite;
+display: flex;
+width: 10px;
+
+
+}
+.projects {
+text-align: center;
+}
+.projects {
+max-width: 940px;
+margin: 0 auto;
+text-align: center;
+}
+
+
+/*.projects > article {
+max-width: 300px;
+margin: 10px;
+padding: 2px;
+box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+/*.projects > article > img {
+  width: 350%;
+  opacity: 0.9;
+  padding: 10px;
+  object-fit: scale-down;
+ 
+}*/
+.projects img {
+  width: 50%;
+  object-fit: fill;
+  
+}
+.projects p,
+.projects h4 {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  
+}
+.projects h4 {
+    font-family: cursive;
+    font-size: x-large;
+}
+
+/*reach me*/
+#details {
+display: flex;
+text-align: center;
+margin: 15px;
+justify-content: space-between;
+font-size: small;
+background-color: rgb(233, 191, 66);
+margin-bottom: 25%;
+margin-right: 25px;
+
+}
+a:hover {
+background-color: rgb(233, 191, 66);
+}
+#details a {
+color: darkgreen;
+background-color: rgb(233, 191, 66)
+}
+header > img {
+  width: 90%;
+  text-align: center;
+ padding-left: 100px;
+}
+header > h1 {
+  text-align: center;
+  font-family: fantasy;
+  background-color: rgb(243, 192, 62);
+}
+/*desktop view*/
+@media (min-width: 1020px) {
+body {
+  background-color: rgb(250, 244, 194);
+}
+
+}
+
