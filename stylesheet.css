@@ -82,6 +82,9 @@ header > img {
     body {
       background-color: rgb(250, 244, 194);
     }
+    header > h1 {
+        font-family: fantasy;
+    }
   }
 
     
